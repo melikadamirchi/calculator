@@ -165,7 +165,7 @@ export const ACTIONS = {
       <DigitButton digit={"."} dispatch={dispatch} />
       <DigitButton digit={"0"} dispatch={dispatch} />
       <button className="span-two" onClick={() => dispatch({ type: ACTIONS.EVALUATE })}> = </button>
-     
+     <span style={{text:"center", display:"flex",justifyContent:"end",margin:"0 auto",fontSize:"0.8rem",color:"green"}}>Made By Melika</span>
     </div>
   )
 }
